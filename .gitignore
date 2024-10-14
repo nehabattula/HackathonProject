@@ -1,0 +1,57 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Test binary, builds, and compiled files
+*.test
+*.log
+*.bin
+*.o
+*.a
+
+# Vendor directory
+/vendor/
+
+# Dependency directories (for Go modules)
+/go.sum
+/go.mod
+
+# Go workspace file
+*.work
+
+# VSCode settings, tasks, and workspace-specific files
+.vscode/
+
+# Temporary or cached files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Ignore IDE specific files
+.idea/
+*.iml
+
+# Mac OS generated files
+.DS_Store
+
+# Windows generated files
+Thumbs.db
+
+# GoLand IDE
+.idea/
+*.iws
+
+# Gopls (Language Server for Go)
+.gopls/
+
+# If you use local dependencies or package managers like `go dep`, exclude the following:
+# Godeps (dep package manager)
+Godeps/
